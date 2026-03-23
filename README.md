@@ -1,4 +1,4 @@
-# 💻 ThinkPad LED & Fan Controller
+# 💻 ThinkPad LED & Fan Controller - An Alternative to WinRing0
 
 A lightweight utility for manual Fan and LED management on ThinkPad models.
 
