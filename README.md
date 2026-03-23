@@ -1,6 +1,6 @@
 # 💻 ThinkPad Controller (T14 & Compatible)
 
-A lightweight utility for manual Fan and LED management on ThinkPad T14 and similar models. This tool provides direct hardware access to the Embedded Controller (EC) to bypass BIOS restrictions.
+A lightweight utility for manual Fan and LED management on ThinkPad models.
 
 ---
 
