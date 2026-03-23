@@ -1,6 +1,8 @@
 # 💻 ThinkPad Controller (T14 & Compatible)
 
 A lightweight LED and Fan control for ThinkPads using `InpOutx64.dll`. Direct hardware access through the Embedded Controller (EC).
+
+---
 ![App Interface](ss.png)
 ---
 
