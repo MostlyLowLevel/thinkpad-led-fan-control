@@ -1,14 +1,9 @@
-Proprietary License - ThinkPad Control
-Copyright (c) 2026 Louiss3434. All rights reserved.
+LICENSE: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
 
-1. PERMITTED USE: This software is provided for personal, non-commercial use only. 
-2. RESTRICTIONS: You may not redistribute, sell, lease, or rent this software. 
-   Decompilation, reverse engineering, or modification of the binary or source code 
-   for commercial purposes is strictly prohibited without prior written consent 
-   from the author (Louiss3434).
-3. REVENUE & COMMERCIAL USE: Any use of this software within a business, 
-   commercial, or institutional environment requires a paid Commercial License.
-4. NO WARRANTY: THIS SOFTWARE IS PROVIDED "AS IS". THE AUTHOR IS NOT LIABLE 
-   FOR ANY HARDWARE DAMAGE, INCLUDING BUT NOT LIMITED TO OVERHEATING, 
-   COMPONENT FAILURE, OR DATA LOSS RESULTING FROM THE USE OF THIS TOOL.
-   USE AT YOUR OWN RISK.
+This repository contains documentation, images, and project metadata for the ThinkPad Control Utility.
+
+    No Software Code: The source code for this project is proprietary and is not hosted in this repository.
+
+    Usage: You may share the link to this repository, but you may not redistribute the images or text for commercial purposes.
+
+    Official Distribution: The compiled binary is available exclusively via the Official Ko-fi Shop.
