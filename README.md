@@ -1,57 +1,27 @@
 # 💻 ThinkPad Controller (T14 & Compatible)
 
-A lightweight LED and Fan control for ThinkPads using `InpOutx64.dll`. Direct hardware access through the Embedded Controller (EC).
-
----
-![App Interface](ss.png)
----
-
-## 🚀 Quick Start
-1. **Essential**: Place `TP_Ctrl.exe` and `InpOutx64.dll` in the same folder.
-2. **Permission**: Run `TP_Ctrl.exe` as **Administrator** (Required for hardware I/O).
+A lightweight utility for manual Fan and LED management on ThinkPad T14 and similar models. This tool provides direct hardware access to the Embedded Controller (EC) to bypass BIOS restrictions.
 
 ---
 
-## 📖 Terminal Commands (CLI)
-
-### **1. Fan Control**
-| Command | Result |
-| :--- | :--- |
-| `TP_Ctrl.exe fan [0-7]` | Set manual speed (0 = Off, 7 = Max). |
-| `TP_Ctrl.exe fan auto` | **BIOS Mode**: Let the laptop manage itself. |
-| `TP_Ctrl.exe fan max` | **Full Blast**: Overrides all limits (~5500+ RPM). |
-
-### **2. LED Management**
-**Usage:** `TP_Ctrl.exe led [device] [state]`
-
-| Device | Supported States | Example |
-| :--- | :--- | :--- |
-| `power` | `on`, `off`, `blink` | `TP_Ctrl.exe led power off` |
-| `fn` | `on`, `off`, `blink` | `TP_Ctrl.exe led fn on` |
-| `sleep` | `on`, `off`, `blink` | `TP_Ctrl.exe led sleep blink` |
-| `lid` | `on`, `off`, `blink` | `TP_Ctrl.exe led lid off` |
-| `mic` | `on`, `off`, `blink` | `TP_Ctrl.exe led mic on` |
-
-### **3. Status Checks**
-| Command | Output Description |
-| :--- | :--- |
-| `TP_Ctrl.exe get temp` | Displays current CPU Temperature in Celsius. |
-| `TP_Ctrl.exe get rpm` | Displays current Fan Speed in RPM. |
-| `TP_Ctrl.exe get all` | Displays both Temperature and RPM. |
+## 🚀 Get the Tool
+The compiled binary (GUI + CLI) and required drivers are available here:
+### [👉 Download on Ko-fi](https://ko-fi.com/s/30db78cb9e)
 
 ---
-
-## ⚠️ Caution & Safety
-* **Overheating Risk**: Setting the fan to `0` while the CPU is under load can cause thermal throttling or hardware damage.
-* **EC Lockup**: Direct EC manipulation carries a small risk of the controller becoming unresponsive.
-* **Disclaimer**: This tool uses low-level hardware access. Use at your own risk. The author is not responsible for hardware failure.
-
+![App Interface](interface.png)
 ---
 
-## 🔄 Emergency EC Reset
-If the fan or LEDs become "stuck" and the software no longer responds, you must perform a hardware reset of the Embedded Controller:
+## 🛠 Features
+* **Fan Override:** Manual levels (0-7), Auto, and Max.
+* **LED Management:** Control Power, Fn, Sleep, Lid, and Mic LEDs (On/Off/Blink).
+* **Live Monitoring:** Real-time CPU temperature and Fan RPM tracking.
 
-1. **Shutdown** the laptop completely.
-2. **Unplug** the AC power adapter.
-3. **Forced Reset**: Press and hold the physical **Power Button** for **30 seconds
-4. Reconnect power and boot normally. The EC will be restored to factory defaults.
+## 📋 Requirements
+* Windows 10/11 (64-bit)
+
+## ⚠️ Disclaimer
+This tool performs low-level hardware manipulation. Use at your own risk. The author is not responsible for hardware failure or thermal issues resulting from improper fan settings.
+
+---
+*If this project helped you, consider supporting the work on [Ko-fi](https://ko-fi.com/s/30db78cb9e).*
