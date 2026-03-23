@@ -24,9 +24,6 @@ The compiled binary (GUI + CLI) and required drivers are available here:
 This tool performs low-level hardware manipulation. Use at your own risk. The author is not responsible for hardware failure or thermal issues resulting from improper fan settings.
 
 ---
-*If this project helped you, consider supporting the work on [Ko-fi](https://ko-fi.com/s/30db78cb9e).*
-
----
 
 ## ⚖️ Licensing & Distribution
 * **Landing Page:** The content of this repository (README and Media) is licensed under CC BY-NC-ND 4.0.
