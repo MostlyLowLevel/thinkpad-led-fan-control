@@ -9,7 +9,7 @@ The compiled binary (GUI + CLI) and required drivers are available here:
 ### [👉 Download on Ko-fi](https://ko-fi.com/s/30db78cb9e)
 
 ---
-![App Interface](interface.png)
+![App Interface](gui.png)
 ---
 
 ## 🛠 Features
