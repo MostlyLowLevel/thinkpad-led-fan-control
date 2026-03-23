@@ -13,7 +13,7 @@ The compiled binary (GUI + CLI) and required drivers are available here:
 ---
 
 ## 🛠 Features
-* **Fan Override:** Manual levels (0-7), Auto, and Max.
+* **Fan Override:** Manual levels (0-7) and Auto.
 * **LED Management:** Control Power, Fn, Sleep, Lid, and Mic LEDs (On/Off/Blink).
 * **Live Monitoring:** Real-time CPU temperature and Fan RPM tracking.
 
