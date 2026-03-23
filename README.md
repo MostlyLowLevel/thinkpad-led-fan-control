@@ -1,4 +1,4 @@
-# 💻 ThinkPad Controller (T14 & Compatible)
+# 💻 ThinkPad LED & Fan Controller
 
 A lightweight utility for manual Fan and LED management on ThinkPad models.
 
