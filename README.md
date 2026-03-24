@@ -29,4 +29,3 @@ This tool performs low-level hardware manipulation. Use at your own risk. The au
 * **Landing Page:** The content of this repository (README and Media) is licensed under CC BY-NC-ND 4.0.
 * **Software:** The **ThinkPad Control** executable and its hardening logic are proprietary. 
 * **Official Source:** To ensure you are running a safe, untampered version, only download the utility from the [Official Ko-fi Store](https://ko-fi.com/s/30db78cb9e). 
-* **Third-Party:** This tool uses `InpOutx64.dll` (Logix4U) as a functional dependency.
